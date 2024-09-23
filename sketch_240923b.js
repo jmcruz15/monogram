@@ -30,5 +30,5 @@ function draw() {
  arc(width / 2 - 150 , height /2 + 200, 150, 150, PI *2, PI); 
  arc(width / 2 - 150 , height /2 - 50, 150, 150, PI, PI * 2);
  
-   image(img, mouseX, mouseY, 500,300);
+   image(img, mouseX-200, mouseY-100, 500,300);
  }
